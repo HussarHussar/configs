@@ -136,9 +136,10 @@ alias backup='dpkg --get-selections > packages-list.txt'
 alias show='apt show'
 alias lynx='lynx -vikeys'
 alias lsa='ls -laF'
+alias fire='firejail --private'
 
 #Programming
-alias pyt='python3 -i lemonpy.py'
+alias pyt='python3 -i'
 
 #Git aliases 
 alias gc='git clone'
